@@ -6,6 +6,7 @@ Zadanie zaliczeniowe - Systemy zarządzania treścią
 ```bash
 git clone https://github.com/wojciech-tokarski/CMS-Django-Studia-PP.git
 cd CMS-Django-Studia-PP
+git checkout 1.2.0
 sudo docker build -t blog .
 sudo docker run -p 80:8000 blog
 ```
